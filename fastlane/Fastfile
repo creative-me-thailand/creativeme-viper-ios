@@ -18,7 +18,7 @@ default_platform(:ios)
 platform :ios do
   
   desc "Running code quality check"
-  lane :quality do
+  lane :code_quality do
     swiftlint(
       mode: :lint,
       reporter: "html",
@@ -28,23 +28,44 @@ platform :ios do
   end
 
   desc "Running unit tests"
-  lane :tests do
+  lane :unit_test do
     run_tests(scheme: "cmeviper")
   end
 
-  desc "Build and deploy your (packed) application to beta for testing"
-  lane :beta do
+  desc "Running all tests and quality check"
+  lane :tests do
+    code_quality
+    unit_test
+  end
+
+  desc "Build (packed) application into IPA file"
+  lane :pack do
     gym(
       scheme: "cmeviper",
       include_symbols: true,
       include_bitcode: true,
       export_method: 'development'
     )
+  end
 
+  desc "Increase build number and commit new version to git repository"
+  lane :increase_build_number do
+    increment_build_number
+    commit_version_bump
+  end
+
+  desc "Deploy prepared application to beta"
+  lane :deploy_beta do
     crashlytics(
       api_token: "cf5b7b2a0b85639557661dd3502e1baaa3369e3d",
       build_secret: "c07a081c359ab2299fa2c41969962b8c155eb13157e06cb1c11ab16cedc87e02"
     )
+  end
+
+  desc "Build and deploy your (packed) application to beta for testing"
+  lane :beta do
+    pack
+    deploy_beta
   end
 
 end

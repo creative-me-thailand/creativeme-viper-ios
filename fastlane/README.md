@@ -16,16 +16,36 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios quality
+### ios code_quality
 ```
-fastlane ios quality
+fastlane ios code_quality
 ```
 Running code quality check
+### ios unit_test
+```
+fastlane ios unit_test
+```
+Running unit tests
 ### ios tests
 ```
 fastlane ios tests
 ```
-Running unit tests
+Running all tests and quality check
+### ios pack
+```
+fastlane ios pack
+```
+Build (packed) application into IPA file
+### ios increase_build_number
+```
+fastlane ios increase_build_number
+```
+Increase build number and commit new version to git repository
+### ios deploy_beta
+```
+fastlane ios deploy_beta
+```
+Deploy prepared application to beta
 ### ios beta
 ```
 fastlane ios beta
