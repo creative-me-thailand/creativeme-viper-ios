@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD72AA7E213563ED00440951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AA7D213563ED00440951 /* AppDelegate.swift */; };
-		DD72AA80213563ED00440951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AA7F213563ED00440951 /* ViewController.swift */; };
-		DD72AA83213563ED00440951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD72AA81213563ED00440951 /* Main.storyboard */; };
-		DD72AA85213563EE00440951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD72AA84213563EE00440951 /* Assets.xcassets */; };
-		DD72AA88213563EE00440951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD72AA86213563EE00440951 /* LaunchScreen.storyboard */; };
-		DD72AA93213563EE00440951 /* CME_Viper_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AA92213563EE00440951 /* CME_Viper_iOSTests.swift */; };
-		DD72AA9E213563EE00440951 /* CME_Viper_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AA9D213563EE00440951 /* CME_Viper_iOSUITests.swift */; };
+		DD72AAE62136500200440951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AAE52136500200440951 /* AppDelegate.swift */; };
+		DD72AAE82136500200440951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AAE72136500200440951 /* ViewController.swift */; };
+		DD72AAEB2136500200440951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD72AAE92136500200440951 /* Main.storyboard */; };
+		DD72AAED2136500200440951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD72AAEC2136500200440951 /* Assets.xcassets */; };
+		DD72AAF02136500200440951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD72AAEE2136500200440951 /* LaunchScreen.storyboard */; };
+		DD72AAFB2136500300440951 /* cmeviperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AAFA2136500300440951 /* cmeviperTests.swift */; };
+		DD72AB062136500300440951 /* cmeviperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB052136500300440951 /* cmeviperUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DD72AA8F213563EE00440951 /* PBXContainerItemProxy */ = {
+		DD72AAF72136500300440951 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DD72AA72213563ED00440951 /* Project object */;
+			containerPortal = DD72AADA2136500200440951 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD72AA79213563ED00440951;
-			remoteInfo = "CME Viper iOS";
+			remoteGlobalIDString = DD72AAE12136500200440951;
+			remoteInfo = cmeviper;
 		};
-		DD72AA9A213563EE00440951 /* PBXContainerItemProxy */ = {
+		DD72AB022136500300440951 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DD72AA72213563ED00440951 /* Project object */;
+			containerPortal = DD72AADA2136500200440951 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD72AA79213563ED00440951;
-			remoteInfo = "CME Viper iOS";
+			remoteGlobalIDString = DD72AAE12136500200440951;
+			remoteInfo = cmeviper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD72AA7A213563ED00440951 /* CME Viper iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CME Viper iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD72AA7D213563ED00440951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD72AA7F213563ED00440951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD72AA82213563ED00440951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD72AA84213563EE00440951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD72AA87213563EE00440951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DD72AA89213563EE00440951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD72AA8E213563EE00440951 /* CME Viper iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CME Viper iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD72AA92213563EE00440951 /* CME_Viper_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CME_Viper_iOSTests.swift; sourceTree = "<group>"; };
-		DD72AA94213563EE00440951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD72AA99213563EE00440951 /* CME Viper iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CME Viper iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD72AA9D213563EE00440951 /* CME_Viper_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CME_Viper_iOSUITests.swift; sourceTree = "<group>"; };
-		DD72AA9F213563EE00440951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD72AAE22136500200440951 /* cmeviper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cmeviper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD72AAE52136500200440951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD72AAE72136500200440951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD72AAEA2136500200440951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD72AAEC2136500200440951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD72AAEF2136500200440951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD72AAF12136500200440951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD72AAF62136500300440951 /* cmeviperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cmeviperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD72AAFA2136500300440951 /* cmeviperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cmeviperTests.swift; sourceTree = "<group>"; };
+		DD72AAFC2136500300440951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD72AB012136500300440951 /* cmeviperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cmeviperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD72AB052136500300440951 /* cmeviperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cmeviperUITests.swift; sourceTree = "<group>"; };
+		DD72AB072136500300440951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DD72AA77213563ED00440951 /* Frameworks */ = {
+		DD72AADF2136500200440951 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD72AA8B213563EE00440951 /* Frameworks */ = {
+		DD72AAF32136500300440951 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD72AA96213563EE00440951 /* Frameworks */ = {
+		DD72AAFE2136500300440951 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD72AA71213563ED00440951 = {
+		DD72AAD92136500200440951 = {
 			isa = PBXGroup;
 			children = (
-				DD72AA7C213563ED00440951 /* CME Viper iOS */,
-				DD72AA91213563EE00440951 /* CME Viper iOSTests */,
-				DD72AA9C213563EE00440951 /* CME Viper iOSUITests */,
-				DD72AA7B213563ED00440951 /* Products */,
+				DD72AAE42136500200440951 /* cmeviper */,
+				DD72AAF92136500300440951 /* cmeviperTests */,
+				DD72AB042136500300440951 /* cmeviperUITests */,
+				DD72AAE32136500200440951 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DD72AA7B213563ED00440951 /* Products */ = {
+		DD72AAE32136500200440951 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD72AA7A213563ED00440951 /* CME Viper iOS.app */,
-				DD72AA8E213563EE00440951 /* CME Viper iOSTests.xctest */,
-				DD72AA99213563EE00440951 /* CME Viper iOSUITests.xctest */,
+				DD72AAE22136500200440951 /* cmeviper.app */,
+				DD72AAF62136500300440951 /* cmeviperTests.xctest */,
+				DD72AB012136500300440951 /* cmeviperUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD72AA7C213563ED00440951 /* CME Viper iOS */ = {
+		DD72AAE42136500200440951 /* cmeviper */ = {
 			isa = PBXGroup;
 			children = (
-				DD72AA7D213563ED00440951 /* AppDelegate.swift */,
-				DD72AA7F213563ED00440951 /* ViewController.swift */,
-				DD72AA81213563ED00440951 /* Main.storyboard */,
-				DD72AA84213563EE00440951 /* Assets.xcassets */,
-				DD72AA86213563EE00440951 /* LaunchScreen.storyboard */,
-				DD72AA89213563EE00440951 /* Info.plist */,
+				DD72AAE52136500200440951 /* AppDelegate.swift */,
+				DD72AAE72136500200440951 /* ViewController.swift */,
+				DD72AAE92136500200440951 /* Main.storyboard */,
+				DD72AAEC2136500200440951 /* Assets.xcassets */,
+				DD72AAEE2136500200440951 /* LaunchScreen.storyboard */,
+				DD72AAF12136500200440951 /* Info.plist */,
 			);
-			path = "CME Viper iOS";
+			path = cmeviper;
 			sourceTree = "<group>";
 		};
-		DD72AA91213563EE00440951 /* CME Viper iOSTests */ = {
+		DD72AAF92136500300440951 /* cmeviperTests */ = {
 			isa = PBXGroup;
 			children = (
-				DD72AA92213563EE00440951 /* CME_Viper_iOSTests.swift */,
-				DD72AA94213563EE00440951 /* Info.plist */,
+				DD72AAFA2136500300440951 /* cmeviperTests.swift */,
+				DD72AAFC2136500300440951 /* Info.plist */,
 			);
-			path = "CME Viper iOSTests";
+			path = cmeviperTests;
 			sourceTree = "<group>";
 		};
-		DD72AA9C213563EE00440951 /* CME Viper iOSUITests */ = {
+		DD72AB042136500300440951 /* cmeviperUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DD72AA9D213563EE00440951 /* CME_Viper_iOSUITests.swift */,
-				DD72AA9F213563EE00440951 /* Info.plist */,
+				DD72AB052136500300440951 /* cmeviperUITests.swift */,
+				DD72AB072136500300440951 /* Info.plist */,
 			);
-			path = "CME Viper iOSUITests";
+			path = cmeviperUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD72AA79213563ED00440951 /* CME Viper iOS */ = {
+		DD72AAE12136500200440951 /* cmeviper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD72AAA2213563EE00440951 /* Build configuration list for PBXNativeTarget "CME Viper iOS" */;
+			buildConfigurationList = DD72AB0A2136500300440951 /* Build configuration list for PBXNativeTarget "cmeviper" */;
 			buildPhases = (
-				DD72AA76213563ED00440951 /* Sources */,
-				DD72AA77213563ED00440951 /* Frameworks */,
-				DD72AA78213563ED00440951 /* Resources */,
+				DD72AADE2136500200440951 /* Sources */,
+				DD72AADF2136500200440951 /* Frameworks */,
+				DD72AAE02136500200440951 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CME Viper iOS";
-			productName = "CME Viper iOS";
-			productReference = DD72AA7A213563ED00440951 /* CME Viper iOS.app */;
+			name = cmeviper;
+			productName = cmeviper;
+			productReference = DD72AAE22136500200440951 /* cmeviper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD72AA8D213563EE00440951 /* CME Viper iOSTests */ = {
+		DD72AAF52136500300440951 /* cmeviperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD72AAA5213563EE00440951 /* Build configuration list for PBXNativeTarget "CME Viper iOSTests" */;
+			buildConfigurationList = DD72AB0D2136500300440951 /* Build configuration list for PBXNativeTarget "cmeviperTests" */;
 			buildPhases = (
-				DD72AA8A213563EE00440951 /* Sources */,
-				DD72AA8B213563EE00440951 /* Frameworks */,
-				DD72AA8C213563EE00440951 /* Resources */,
+				DD72AAF22136500300440951 /* Sources */,
+				DD72AAF32136500300440951 /* Frameworks */,
+				DD72AAF42136500300440951 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD72AA90213563EE00440951 /* PBXTargetDependency */,
+				DD72AAF82136500300440951 /* PBXTargetDependency */,
 			);
-			name = "CME Viper iOSTests";
-			productName = "CME Viper iOSTests";
-			productReference = DD72AA8E213563EE00440951 /* CME Viper iOSTests.xctest */;
+			name = cmeviperTests;
+			productName = cmeviperTests;
+			productReference = DD72AAF62136500300440951 /* cmeviperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD72AA98213563EE00440951 /* CME Viper iOSUITests */ = {
+		DD72AB002136500300440951 /* cmeviperUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD72AAA8213563EE00440951 /* Build configuration list for PBXNativeTarget "CME Viper iOSUITests" */;
+			buildConfigurationList = DD72AB102136500300440951 /* Build configuration list for PBXNativeTarget "cmeviperUITests" */;
 			buildPhases = (
-				DD72AA95213563EE00440951 /* Sources */,
-				DD72AA96213563EE00440951 /* Frameworks */,
-				DD72AA97213563EE00440951 /* Resources */,
+				DD72AAFD2136500300440951 /* Sources */,
+				DD72AAFE2136500300440951 /* Frameworks */,
+				DD72AAFF2136500300440951 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD72AA9B213563EE00440951 /* PBXTargetDependency */,
+				DD72AB032136500300440951 /* PBXTargetDependency */,
 			);
-			name = "CME Viper iOSUITests";
-			productName = "CME Viper iOSUITests";
-			productReference = DD72AA99213563EE00440951 /* CME Viper iOSUITests.xctest */;
+			name = cmeviperUITests;
+			productName = cmeviperUITests;
+			productReference = DD72AB012136500300440951 /* cmeviperUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DD72AA72213563ED00440951 /* Project object */ = {
+		DD72AADA2136500200440951 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CreativeMe;
 				TargetAttributes = {
-					DD72AA79213563ED00440951 = {
+					DD72AAE12136500200440951 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					DD72AA8D213563EE00440951 = {
+					DD72AAF52136500300440951 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = DD72AA79213563ED00440951;
+						TestTargetID = DD72AAE12136500200440951;
 					};
-					DD72AA98213563EE00440951 = {
+					DD72AB002136500300440951 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = DD72AA79213563ED00440951;
+						TestTargetID = DD72AAE12136500200440951;
 					};
 				};
 			};
-			buildConfigurationList = DD72AA75213563ED00440951 /* Build configuration list for PBXProject "CME Viper iOS" */;
+			buildConfigurationList = DD72AADD2136500200440951 /* Build configuration list for PBXProject "cmeviper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DD72AA71213563ED00440951;
-			productRefGroup = DD72AA7B213563ED00440951 /* Products */;
+			mainGroup = DD72AAD92136500200440951;
+			productRefGroup = DD72AAE32136500200440951 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD72AA79213563ED00440951 /* CME Viper iOS */,
-				DD72AA8D213563EE00440951 /* CME Viper iOSTests */,
-				DD72AA98213563EE00440951 /* CME Viper iOSUITests */,
+				DD72AAE12136500200440951 /* cmeviper */,
+				DD72AAF52136500300440951 /* cmeviperTests */,
+				DD72AB002136500300440951 /* cmeviperUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DD72AA78213563ED00440951 /* Resources */ = {
+		DD72AAE02136500200440951 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD72AA88213563EE00440951 /* LaunchScreen.storyboard in Resources */,
-				DD72AA85213563EE00440951 /* Assets.xcassets in Resources */,
-				DD72AA83213563ED00440951 /* Main.storyboard in Resources */,
+				DD72AAF02136500200440951 /* LaunchScreen.storyboard in Resources */,
+				DD72AAED2136500200440951 /* Assets.xcassets in Resources */,
+				DD72AAEB2136500200440951 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD72AA8C213563EE00440951 /* Resources */ = {
+		DD72AAF42136500300440951 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD72AA97213563EE00440951 /* Resources */ = {
+		DD72AAFF2136500300440951 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD72AA76213563ED00440951 /* Sources */ = {
+		DD72AADE2136500200440951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD72AA80213563ED00440951 /* ViewController.swift in Sources */,
-				DD72AA7E213563ED00440951 /* AppDelegate.swift in Sources */,
+				DD72AAE82136500200440951 /* ViewController.swift in Sources */,
+				DD72AAE62136500200440951 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD72AA8A213563EE00440951 /* Sources */ = {
+		DD72AAF22136500300440951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD72AA93213563EE00440951 /* CME_Viper_iOSTests.swift in Sources */,
+				DD72AAFB2136500300440951 /* cmeviperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD72AA95213563EE00440951 /* Sources */ = {
+		DD72AAFD2136500300440951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD72AA9E213563EE00440951 /* CME_Viper_iOSUITests.swift in Sources */,
+				DD72AB062136500300440951 /* cmeviperUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DD72AA90213563EE00440951 /* PBXTargetDependency */ = {
+		DD72AAF82136500300440951 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD72AA79213563ED00440951 /* CME Viper iOS */;
-			targetProxy = DD72AA8F213563EE00440951 /* PBXContainerItemProxy */;
+			target = DD72AAE12136500200440951 /* cmeviper */;
+			targetProxy = DD72AAF72136500300440951 /* PBXContainerItemProxy */;
 		};
-		DD72AA9B213563EE00440951 /* PBXTargetDependency */ = {
+		DD72AB032136500300440951 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD72AA79213563ED00440951 /* CME Viper iOS */;
-			targetProxy = DD72AA9A213563EE00440951 /* PBXContainerItemProxy */;
+			target = DD72AAE12136500200440951 /* cmeviper */;
+			targetProxy = DD72AB022136500300440951 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DD72AA81213563ED00440951 /* Main.storyboard */ = {
+		DD72AAE92136500200440951 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD72AA82213563ED00440951 /* Base */,
+				DD72AAEA2136500200440951 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DD72AA86213563EE00440951 /* LaunchScreen.storyboard */ = {
+		DD72AAEE2136500200440951 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD72AA87213563EE00440951 /* Base */,
+				DD72AAEF2136500200440951 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DD72AAA0213563EE00440951 /* Debug */ = {
+		DD72AB082136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		DD72AAA1213563EE00440951 /* Release */ = {
+		DD72AB092136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,164 +426,164 @@
 			};
 			name = Release;
 		};
-		DD72AAA3213563EE00440951 /* Debug */ = {
+		DD72AB0B2136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
-				INFOPLIST_FILE = "CME Viper iOS/Info.plist";
+				INFOPLIST_FILE = cmeviper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.creativeme.viper.CME-Viper-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativeme.viper.cmeviper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DD72AAA4213563EE00440951 /* Release */ = {
+		DD72AB0C2136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
-				INFOPLIST_FILE = "CME Viper iOS/Info.plist";
+				INFOPLIST_FILE = cmeviper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.creativeme.viper.CME-Viper-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativeme.viper.cmeviper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		DD72AAA6213563EE00440951 /* Debug */ = {
+		DD72AB0E2136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
-				INFOPLIST_FILE = "CME Viper iOSTests/Info.plist";
+				INFOPLIST_FILE = cmeviperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.creativeme.viper.CME-Viper-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativeme.viper.cmeviperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CME Viper iOS.app/CME Viper iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cmeviper.app/cmeviper";
 			};
 			name = Debug;
 		};
-		DD72AAA7213563EE00440951 /* Release */ = {
+		DD72AB0F2136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
-				INFOPLIST_FILE = "CME Viper iOSTests/Info.plist";
+				INFOPLIST_FILE = cmeviperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.creativeme.viper.CME-Viper-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativeme.viper.cmeviperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CME Viper iOS.app/CME Viper iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cmeviper.app/cmeviper";
 			};
 			name = Release;
 		};
-		DD72AAA9213563EE00440951 /* Debug */ = {
+		DD72AB112136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
-				INFOPLIST_FILE = "CME Viper iOSUITests/Info.plist";
+				INFOPLIST_FILE = cmeviperUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.creativeme.viper.CME-Viper-iOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativeme.viper.cmeviperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CME Viper iOS";
+				TEST_TARGET_NAME = cmeviper;
 			};
 			name = Debug;
 		};
-		DD72AAAA213563EE00440951 /* Release */ = {
+		DD72AB122136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
-				INFOPLIST_FILE = "CME Viper iOSUITests/Info.plist";
+				INFOPLIST_FILE = cmeviperUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.creativeme.viper.CME-Viper-iOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativeme.viper.cmeviperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CME Viper iOS";
+				TEST_TARGET_NAME = cmeviper;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD72AA75213563ED00440951 /* Build configuration list for PBXProject "CME Viper iOS" */ = {
+		DD72AADD2136500200440951 /* Build configuration list for PBXProject "cmeviper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD72AAA0213563EE00440951 /* Debug */,
-				DD72AAA1213563EE00440951 /* Release */,
+				DD72AB082136500300440951 /* Debug */,
+				DD72AB092136500300440951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD72AAA2213563EE00440951 /* Build configuration list for PBXNativeTarget "CME Viper iOS" */ = {
+		DD72AB0A2136500300440951 /* Build configuration list for PBXNativeTarget "cmeviper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD72AAA3213563EE00440951 /* Debug */,
-				DD72AAA4213563EE00440951 /* Release */,
+				DD72AB0B2136500300440951 /* Debug */,
+				DD72AB0C2136500300440951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD72AAA5213563EE00440951 /* Build configuration list for PBXNativeTarget "CME Viper iOSTests" */ = {
+		DD72AB0D2136500300440951 /* Build configuration list for PBXNativeTarget "cmeviperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD72AAA6213563EE00440951 /* Debug */,
-				DD72AAA7213563EE00440951 /* Release */,
+				DD72AB0E2136500300440951 /* Debug */,
+				DD72AB0F2136500300440951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD72AAA8213563EE00440951 /* Build configuration list for PBXNativeTarget "CME Viper iOSUITests" */ = {
+		DD72AB102136500300440951 /* Build configuration list for PBXNativeTarget "cmeviperUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD72AAA9213563EE00440951 /* Debug */,
-				DD72AAAA213563EE00440951 /* Release */,
+				DD72AB112136500300440951 /* Debug */,
+				DD72AB122136500300440951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DD72AA72213563ED00440951 /* Project object */;
+	rootObject = DD72AADA2136500200440951 /* Project object */;
 }

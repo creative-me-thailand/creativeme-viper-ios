@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  CME Viper iOS
+//  cmeviper
 //
-//  Created by Patipat Sahasapanan on 28/8/2561 BE.
+//  Created by Patipat Sahasapanan on 29/8/2561 BE.
 //  Copyright © 2561 CreativeMe. All rights reserved.
 //
 

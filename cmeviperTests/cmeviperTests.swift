@@ -1,15 +1,15 @@
 //
-//  CME_Viper_iOSTests.swift
-//  CME Viper iOSTests
+//  cmeviperTests.swift
+//  cmeviperTests
 //
-//  Created by Patipat Sahasapanan on 28/8/2561 BE.
+//  Created by Patipat Sahasapanan on 29/8/2561 BE.
 //  Copyright © 2561 CreativeMe. All rights reserved.
 //
 
 import XCTest
-@testable import CME_Viper_iOS
+@testable import cmeviper
 
-class CME_Viper_iOSTests: XCTestCase {
+class cmeviperTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
