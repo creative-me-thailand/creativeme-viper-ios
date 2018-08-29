@@ -64,6 +64,7 @@ platform :ios do
 
   desc "Build and deploy your (packed) application to beta for testing"
   lane :beta do
+    increase_build_number
     pack
     deploy_beta
   end
