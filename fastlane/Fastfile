@@ -17,14 +17,34 @@ default_platform(:ios)
 
 platform :ios do
   
-  desc "Description of what the lane does"
-  lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
+  desc "Running code quality check"
+  lane :quality do
+    swiftlint(
+      mode: :lint,
+      reporter: "html",
+      output_file: "fastlane/test_output/lint.html",
+      quiet: true
+    )
   end
 
   desc "Running unit tests"
   lane :tests do
     run_tests(scheme: "cmeviper")
+  end
+
+  desc "Build and deploy your (packed) application to beta for testing"
+  lane :beta do
+    gym(
+      scheme: "cmeviper",
+      include_symbols: true,
+      include_bitcode: true,
+      export_method: 'development'
+    )
+
+    crashlytics(
+      api_token: "cf5b7b2a0b85639557661dd3502e1baaa3369e3d",
+      build_secret: "c07a081c359ab2299fa2c41969962b8c155eb13157e06cb1c11ab16cedc87e02"
+    )
   end
 
 end

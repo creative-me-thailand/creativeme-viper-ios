@@ -205,6 +205,7 @@
 				DD72AADF2136500200440951 /* Frameworks */,
 				DD72AAE02136500200440951 /* Resources */,
 				A8161EB9C4DDBD180AF95532 /* [CP] Embed Pods Frameworks */,
+				F81FA47321369FB000689205 /* Run Script - Fabric */,
 			);
 			buildRules = (
 			);
@@ -420,6 +421,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F81FA47321369FB000689205 /* Run Script - Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Fabric";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" cf5b7b2a0b85639557661dd3502e1baaa3369e3d c07a081c359ab2299fa2c41969962b8c155eb13157e06cb1c11ab16cedc87e02\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -598,9 +617,11 @@
 			baseConfigurationReference = 4E9465E0F1B8C4599FCFA3D8 /* Pods-cmeviper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GTH69LA694;
 				INFOPLIST_FILE = cmeviper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,9 +639,11 @@
 			baseConfigurationReference = 413590C9174B4A488E831237 /* Pods-cmeviper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GTH69LA694;
 				INFOPLIST_FILE = cmeviper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

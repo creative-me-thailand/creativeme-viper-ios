@@ -16,16 +16,21 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios custom_lane
+### ios quality
 ```
-fastlane ios custom_lane
+fastlane ios quality
 ```
-Description of what the lane does
+Running code quality check
 ### ios tests
 ```
 fastlane ios tests
 ```
 Running unit tests
+### ios beta
+```
+fastlane ios beta
+```
+Build and deploy your (packed) application to beta for testing
 
 ----
 
