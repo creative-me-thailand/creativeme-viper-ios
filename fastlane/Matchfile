@@ -1,0 +1,4 @@
+
+git_url("https://creativemethailand@gitlab.com/creativemethailand/ios-fastlane.git") # Git repository url for store the certificates
+
+type("development") # The default type, can be: appstore, adhoc, enterprise or development
