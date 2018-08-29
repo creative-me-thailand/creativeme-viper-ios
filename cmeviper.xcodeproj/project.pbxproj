@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2708C1C4889E1CF46545E05B /* Pods_cmeviperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1FB80B5B59F9B9F191E4A9 /* Pods_cmeviperTests.framework */; };
 		DD72AAE62136500200440951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AAE52136500200440951 /* AppDelegate.swift */; };
 		DD72AAED2136500200440951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD72AAEC2136500200440951 /* Assets.xcassets */; };
 		DD72AAF02136500200440951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD72AAEE2136500200440951 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 		DD72AB1F213651E100440951 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB1A213651E100440951 /* LoginViewController.swift */; };
 		DD72AB20213651E100440951 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB1B213651E100440951 /* LoginProtocols.swift */; };
 		DD72AB21213651E100440951 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB1C213651E100440951 /* LoginInteractor.swift */; };
+		FA02A6E5D8785D89E7E647E8 /* Pods_cmeviper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173D985C7F2E4D8AEE5467AC /* Pods_cmeviper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		173D985C7F2E4D8AEE5467AC /* Pods_cmeviper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cmeviper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		413590C9174B4A488E831237 /* Pods-cmeviper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmeviper.release.xcconfig"; path = "Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper.release.xcconfig"; sourceTree = "<group>"; };
+		4E9465E0F1B8C4599FCFA3D8 /* Pods-cmeviper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmeviper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper.debug.xcconfig"; sourceTree = "<group>"; };
+		83DF55ECE4A75AB1FE435EE1 /* Pods-cmeviperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmeviperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cmeviperTests/Pods-cmeviperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B6D223A02DB5E4D5636AE8F /* Pods-cmeviperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmeviperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cmeviperTests/Pods-cmeviperTests.release.xcconfig"; sourceTree = "<group>"; };
 		DD72AAE22136500200440951 /* cmeviper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cmeviper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD72AAE52136500200440951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD72AAEC2136500200440951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +62,7 @@
 		DD72AB1A213651E100440951 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DD72AB1B213651E100440951 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
 		DD72AB1C213651E100440951 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		ED1FB80B5B59F9B9F191E4A9 /* Pods_cmeviperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cmeviperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA02A6E5D8785D89E7E647E8 /* Pods_cmeviper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2708C1C4889E1CF46545E05B /* Pods_cmeviperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +92,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AAB5841C2A309F417A8F8E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E9465E0F1B8C4599FCFA3D8 /* Pods-cmeviper.debug.xcconfig */,
+				413590C9174B4A488E831237 /* Pods-cmeviper.release.xcconfig */,
+				83DF55ECE4A75AB1FE435EE1 /* Pods-cmeviperTests.debug.xcconfig */,
+				9B6D223A02DB5E4D5636AE8F /* Pods-cmeviperTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3402DBA063F3C580B76DEC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				173D985C7F2E4D8AEE5467AC /* Pods_cmeviper.framework */,
+				ED1FB80B5B59F9B9F191E4A9 /* Pods_cmeviperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD72AAD92136500200440951 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +119,8 @@
 				DD72AAF92136500300440951 /* cmeviperTests */,
 				DD72AB042136500300440951 /* cmeviperUITests */,
 				DD72AAE32136500200440951 /* Products */,
+				8AAB5841C2A309F417A8F8E3 /* Pods */,
+				B3402DBA063F3C580B76DEC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD72AB0A2136500300440951 /* Build configuration list for PBXNativeTarget "cmeviper" */;
 			buildPhases = (
+				A75C52BD008CFB581BB07696 /* [CP] Check Pods Manifest.lock */,
 				DD72AADE2136500200440951 /* Sources */,
 				DD72AADF2136500200440951 /* Frameworks */,
 				DD72AAE02136500200440951 /* Resources */,
+				A8161EB9C4DDBD180AF95532 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD72AB0D2136500300440951 /* Build configuration list for PBXNativeTarget "cmeviperTests" */;
 			buildPhases = (
+				1C6A4583642FB84BF847819A /* [CP] Check Pods Manifest.lock */,
 				DD72AAF22136500300440951 /* Sources */,
 				DD72AAF32136500300440951 /* Frameworks */,
 				DD72AAF42136500300440951 /* Resources */,
+				7EE7B41A940ADDC385925299 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,6 +322,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C6A4583642FB84BF847819A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cmeviperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE7B41A940ADDC385925299 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cmeviperTests/Pods-cmeviperTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cmeviperTests/Pods-cmeviperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A75C52BD008CFB581BB07696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cmeviper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8161EB9C4DDBD180AF95532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD72AADE2136500200440951 /* Sources */ = {
@@ -460,6 +595,7 @@
 		};
 		DD72AB0B2136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9465E0F1B8C4599FCFA3D8 /* Pods-cmeviper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +614,7 @@
 		};
 		DD72AB0C2136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413590C9174B4A488E831237 /* Pods-cmeviper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,8 +633,8 @@
 		};
 		DD72AB0E2136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DF55ECE4A75AB1FE435EE1 /* Pods-cmeviperTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
@@ -517,8 +654,8 @@
 		};
 		DD72AB0F2136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6D223A02DB5E4D5636AE8F /* Pods-cmeviperTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
@@ -539,7 +676,6 @@
 		DD72AB112136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
 				INFOPLIST_FILE = cmeviperUITests/Info.plist;
@@ -559,7 +695,6 @@
 		DD72AB122136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTH69LA694;
 				INFOPLIST_FILE = cmeviperUITests/Info.plist;
