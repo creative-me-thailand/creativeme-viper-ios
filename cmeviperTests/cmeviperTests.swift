@@ -26,6 +26,10 @@ class cmeviperTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testAssert() {
+        XCTAssertTrue(true)
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
