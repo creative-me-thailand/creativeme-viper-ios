@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QWr-Nj-GUV">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Qc8-iV-5RK">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QWr-Nj-GUV" customClass="LoginViewController" customModule="cmeviper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XBk-hC-h3S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6FN-0g-AM1" customClass="PasscodeKeyboard" customModule="cmeviper" customModuleProvider="target">
+                                <rect key="frame" x="15" y="215" width="290" height="323"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="323" id="Pzg-zP-56p"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8yb-fF-HKU" customClass="PinStyle" customModule="cmeviper" customModuleProvider="target">
+                                <rect key="frame" x="80" y="115" width="174" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BqN-Jt-0hk"/>
+                                    <constraint firstAttribute="width" constant="174" id="s5B-JW-esm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jL0-C2-NQt" firstAttribute="bottom" secondItem="6FN-0g-AM1" secondAttribute="bottom" constant="30" id="2U9-Fz-HCb"/>
+                            <constraint firstItem="8yb-fF-HKU" firstAttribute="centerX" secondItem="jL0-C2-NQt" secondAttribute="centerX" id="4fA-3h-172"/>
+                            <constraint firstItem="8yb-fF-HKU" firstAttribute="top" secondItem="jL0-C2-NQt" secondAttribute="top" constant="95" id="C3a-Kr-EJi"/>
+                            <constraint firstItem="6FN-0g-AM1" firstAttribute="centerX" secondItem="jL0-C2-NQt" secondAttribute="centerX" id="KFO-u1-S9m"/>
+                            <constraint firstItem="6FN-0g-AM1" firstAttribute="leading" secondItem="jL0-C2-NQt" secondAttribute="leading" constant="15" id="U0A-lt-0n3"/>
+                            <constraint firstItem="jL0-C2-NQt" firstAttribute="trailing" secondItem="6FN-0g-AM1" secondAttribute="trailing" constant="15" id="pzf-Qe-Qhc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jL0-C2-NQt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NNQ-E5-O86"/>
+                    <connections>
+                        <outlet property="keyboardPasscode" destination="6FN-0g-AM1" id="ioE-6y-2GH"/>
+                        <outlet property="pinView" destination="8yb-fF-HKU" id="Mhn-8j-iZw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kLk-uZ-YDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1181.25" y="90.845070422535215"/>
+        </scene>
+    </scenes>
+</document>

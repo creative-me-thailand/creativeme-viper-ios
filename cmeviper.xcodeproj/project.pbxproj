@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0A332311A40FC2B5415C5E /* Pods_cmeviper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E8DF3BC899F6D35BACB90C /* Pods_cmeviper.framework */; };
 		DD72AAE62136500200440951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AAE52136500200440951 /* AppDelegate.swift */; };
 		DD72AAED2136500200440951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD72AAEC2136500200440951 /* Assets.xcassets */; };
 		DD72AAF02136500200440951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD72AAEE2136500200440951 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,17 @@
 		DD72AB1F213651E100440951 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB1A213651E100440951 /* LoginViewController.swift */; };
 		DD72AB20213651E100440951 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB1B213651E100440951 /* LoginProtocols.swift */; };
 		DD72AB21213651E100440951 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB1C213651E100440951 /* LoginInteractor.swift */; };
+		DD72AB262136A52D00440951 /* ArrayOfColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB252136A52D00440951 /* ArrayOfColors.swift */; };
+		DD72AB2B2136AADB00440951 /* String+CountableClosedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB2A2136AADB00440951 /* String+CountableClosedRange.swift */; };
+		DD72AB2D2136AB3300440951 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB2C2136AB3300440951 /* UIColor+Hex.swift */; };
+		DD72AB312136B18F00440951 /* LoginDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB302136B18F00440951 /* LoginDisplayData.swift */; };
+		DD72AB442137FB1800440951 /* PasscodeKeyboardDelagate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB432137FB1800440951 /* PasscodeKeyboardDelagate.swift */; };
+		DD72AB462137FB4200440951 /* PasscodeKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB452137FB4200440951 /* PasscodeKeyboard.swift */; };
+		DD72AB482137FB5900440951 /* PasscodeKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD72AB472137FB5900440951 /* PasscodeKeyboardView.xib */; };
+		DD72AB4C213803E700440951 /* PinStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB4B213803E700440951 /* PinStyle.swift */; };
+		DD72AB4E213803F800440951 /* PinStyleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD72AB4D213803F800440951 /* PinStyleView.xib */; };
+		DD72AB50213805EF00440951 /* PinStyleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72AB4F213805EF00440951 /* PinStyleDelegate.swift */; };
+		FA66975F17EFA9ECA646610B /* Pods_cmeviperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FEA6104E73C0F34B58B042 /* Pods_cmeviperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		125D7DAAC20AACE8DFEE66FD /* Pods-cmeviperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmeviperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cmeviperTests/Pods-cmeviperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D0CFC1A1B1E1EE5DCCD77FF /* Pods-cmeviper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmeviper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper.debug.xcconfig"; sourceTree = "<group>"; };
+		66FEA6104E73C0F34B58B042 /* Pods_cmeviperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cmeviperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CE4CF23BB6783807AEA3D5 /* Pods-cmeviperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmeviperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cmeviperTests/Pods-cmeviperTests.release.xcconfig"; sourceTree = "<group>"; };
 		DD72AAE22136500200440951 /* cmeviper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cmeviper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD72AAE52136500200440951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD72AAEC2136500200440951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +71,18 @@
 		DD72AB1A213651E100440951 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DD72AB1B213651E100440951 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
 		DD72AB1C213651E100440951 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		DD72AB252136A52D00440951 /* ArrayOfColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOfColors.swift; sourceTree = "<group>"; };
+		DD72AB2A2136AADB00440951 /* String+CountableClosedRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CountableClosedRange.swift"; sourceTree = "<group>"; };
+		DD72AB2C2136AB3300440951 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		DD72AB302136B18F00440951 /* LoginDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDisplayData.swift; sourceTree = "<group>"; };
+		DD72AB432137FB1800440951 /* PasscodeKeyboardDelagate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeKeyboardDelagate.swift; sourceTree = "<group>"; };
+		DD72AB452137FB4200440951 /* PasscodeKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeKeyboard.swift; sourceTree = "<group>"; };
+		DD72AB472137FB5900440951 /* PasscodeKeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasscodeKeyboardView.xib; sourceTree = "<group>"; };
+		DD72AB4B213803E700440951 /* PinStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinStyle.swift; sourceTree = "<group>"; };
+		DD72AB4D213803F800440951 /* PinStyleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinStyleView.xib; sourceTree = "<group>"; };
+		DD72AB4F213805EF00440951 /* PinStyleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinStyleDelegate.swift; sourceTree = "<group>"; };
+		E4E8DF3BC899F6D35BACB90C /* Pods_cmeviper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cmeviper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B6A63E15BB243FEB255F09 /* Pods-cmeviper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmeviper.release.xcconfig"; path = "Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0A332311A40FC2B5415C5E /* Pods_cmeviper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA66975F17EFA9ECA646610B /* Pods_cmeviperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +119,8 @@
 				DD72AAF92136500300440951 /* cmeviperTests */,
 				DD72AB042136500300440951 /* cmeviperUITests */,
 				DD72AAE32136500200440951 /* Products */,
+				F9D1AE185C508809DF23A7AE /* Pods */,
+				F0B002B76BF97FD47D5C9248 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +137,9 @@
 		DD72AAE42136500200440951 /* cmeviper */ = {
 			isa = PBXGroup;
 			children = (
+				DD72AB412137FAA500440951 /* View */,
+				DD72AB272136AA8F00440951 /* Extension */,
+				DD72AB232136A13000440951 /* Common */,
 				DD72AB14213651A900440951 /* Storyboard */,
 				DD72AB132136519700440951 /* ViewController */,
 				DD72AAE52136500200440951 /* AppDelegate.swift */,
@@ -144,7 +179,6 @@
 		DD72AB14213651A900440951 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				DD72AB15213651C800440951 /* Login.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -152,6 +186,8 @@
 		DD72AB17213651D300440951 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				DD72AB2E2136B17300440951 /* LoginDisplayData */,
+				DD72AB15213651C800440951 /* Login.storyboard */,
 				DD72AB18213651E100440951 /* LoginPresenter.swift */,
 				DD72AB19213651E100440951 /* LoginRouter.swift */,
 				DD72AB1A213651E100440951 /* LoginViewController.swift */,
@@ -161,6 +197,104 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		DD72AB232136A13000440951 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB242136A14000440951 /* ArrayOfColors */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DD72AB242136A14000440951 /* ArrayOfColors */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB252136A52D00440951 /* ArrayOfColors.swift */,
+			);
+			path = ArrayOfColors;
+			sourceTree = "<group>";
+		};
+		DD72AB272136AA8F00440951 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB292136AAA400440951 /* UIColor */,
+				DD72AB282136AA9D00440951 /* String */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DD72AB282136AA9D00440951 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB2A2136AADB00440951 /* String+CountableClosedRange.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		DD72AB292136AAA400440951 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB2C2136AB3300440951 /* UIColor+Hex.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		DD72AB2E2136B17300440951 /* LoginDisplayData */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB302136B18F00440951 /* LoginDisplayData.swift */,
+			);
+			path = LoginDisplayData;
+			sourceTree = "<group>";
+		};
+		DD72AB412137FAA500440951 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB4A213803B600440951 /* PinStyle */,
+				DD72AB422137FAD300440951 /* PasscodeKeyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD72AB422137FAD300440951 /* PasscodeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB432137FB1800440951 /* PasscodeKeyboardDelagate.swift */,
+				DD72AB452137FB4200440951 /* PasscodeKeyboard.swift */,
+				DD72AB472137FB5900440951 /* PasscodeKeyboardView.xib */,
+			);
+			path = PasscodeKeyboard;
+			sourceTree = "<group>";
+		};
+		DD72AB4A213803B600440951 /* PinStyle */ = {
+			isa = PBXGroup;
+			children = (
+				DD72AB4B213803E700440951 /* PinStyle.swift */,
+				DD72AB4D213803F800440951 /* PinStyleView.xib */,
+				DD72AB4F213805EF00440951 /* PinStyleDelegate.swift */,
+			);
+			path = PinStyle;
+			sourceTree = "<group>";
+		};
+		F0B002B76BF97FD47D5C9248 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8DF3BC899F6D35BACB90C /* Pods_cmeviper.framework */,
+				66FEA6104E73C0F34B58B042 /* Pods_cmeviperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D1AE185C508809DF23A7AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D0CFC1A1B1E1EE5DCCD77FF /* Pods-cmeviper.debug.xcconfig */,
+				F9B6A63E15BB243FEB255F09 /* Pods-cmeviper.release.xcconfig */,
+				125D7DAAC20AACE8DFEE66FD /* Pods-cmeviperTests.debug.xcconfig */,
+				76CE4CF23BB6783807AEA3D5 /* Pods-cmeviperTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD72AB0A2136500300440951 /* Build configuration list for PBXNativeTarget "cmeviper" */;
 			buildPhases = (
+				7C46D5A8F8159FA4850C4718 /* [CP] Check Pods Manifest.lock */,
 				DD72AADE2136500200440951 /* Sources */,
 				DD72AADF2136500200440951 /* Frameworks */,
 				DD72AAE02136500200440951 /* Resources */,
+				86F13228CBFD70B53FE54BBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD72AB0D2136500300440951 /* Build configuration list for PBXNativeTarget "cmeviperTests" */;
 			buildPhases = (
+				840134C91020E58D53622C63 /* [CP] Check Pods Manifest.lock */,
 				DD72AAF22136500300440951 /* Sources */,
 				DD72AAF32136500300440951 /* Frameworks */,
 				DD72AAF42136500300440951 /* Resources */,
+				84514DD859F581EA84CA3349 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,9 +403,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD72AB482137FB5900440951 /* PasscodeKeyboardView.xib in Resources */,
 				DD72AAF02136500200440951 /* LaunchScreen.storyboard in Resources */,
 				DD72AAED2136500200440951 /* Assets.xcassets in Resources */,
 				DD72AB16213651C800440951 /* Login.storyboard in Resources */,
+				DD72AB4E213803F800440951 /* PinStyleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +427,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C46D5A8F8159FA4850C4718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cmeviper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840134C91020E58D53622C63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cmeviperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84514DD859F581EA84CA3349 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cmeviperTests/Pods-cmeviperTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cmeviperTests/Pods-cmeviperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F13228CBFD70B53FE54BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cmeviper/Pods-cmeviper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD72AADE2136500200440951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -294,10 +533,18 @@
 			files = (
 				DD72AB1F213651E100440951 /* LoginViewController.swift in Sources */,
 				DD72AB20213651E100440951 /* LoginProtocols.swift in Sources */,
+				DD72AB442137FB1800440951 /* PasscodeKeyboardDelagate.swift in Sources */,
 				DD72AB21213651E100440951 /* LoginInteractor.swift in Sources */,
+				DD72AB50213805EF00440951 /* PinStyleDelegate.swift in Sources */,
+				DD72AB462137FB4200440951 /* PasscodeKeyboard.swift in Sources */,
+				DD72AB2D2136AB3300440951 /* UIColor+Hex.swift in Sources */,
 				DD72AB1D213651E100440951 /* LoginPresenter.swift in Sources */,
 				DD72AAE62136500200440951 /* AppDelegate.swift in Sources */,
 				DD72AB1E213651E100440951 /* LoginRouter.swift in Sources */,
+				DD72AB2B2136AADB00440951 /* String+CountableClosedRange.swift in Sources */,
+				DD72AB312136B18F00440951 /* LoginDisplayData.swift in Sources */,
+				DD72AB262136A52D00440951 /* ArrayOfColors.swift in Sources */,
+				DD72AB4C213803E700440951 /* PinStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +707,7 @@
 		};
 		DD72AB0B2136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0CFC1A1B1E1EE5DCCD77FF /* Pods-cmeviper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +726,7 @@
 		};
 		DD72AB0C2136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B6A63E15BB243FEB255F09 /* Pods-cmeviper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +745,7 @@
 		};
 		DD72AB0E2136500300440951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125D7DAAC20AACE8DFEE66FD /* Pods-cmeviperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +767,7 @@
 		};
 		DD72AB0F2136500300440951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CE4CF23BB6783807AEA3D5 /* Pods-cmeviperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
