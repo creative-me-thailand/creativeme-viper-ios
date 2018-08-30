@@ -21,6 +21,8 @@ def required_pods
 	pod 'Moya' #, :git => 'https://github.com/Moya/Moya'
 	pod 'RxSwift' #, :git => 'https://github.com/ReactiveX/RxSwift'
 	pod 'AlamofireImage', '~> 3.3.1'
+	pod 'Fabric'
+	pod 'Crashlytics'
 end
 
 # Test Libraries
