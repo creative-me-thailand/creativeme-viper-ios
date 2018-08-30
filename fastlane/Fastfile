@@ -22,8 +22,17 @@ platform :ios do
     swiftlint(
       mode: :lint,
       reporter: "html",
-      output_file: "fastlane/test_output/lint.html",
+      output_file: "fastlane/test_output/lint/lint.html",
       quiet: true
+    )
+
+    slather(
+      scheme: "cmeviper",
+      proj: "cmeviper.xcodeproj",
+      workspace: "cmeviper.xcworkspace",
+      output_directory: "fastlane/test_output/slather",
+      html: true,
+      jenkins: true
     )
   end
 
